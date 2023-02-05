@@ -11,24 +11,32 @@ export const Footer = () => {
       </span>
       <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-          <a href="#" target="_blank" className="mr-4 hover:underline md:mr-6 ">
+          <Link
+            to="/"
+            target="_blank"
+            className="mr-4 hover:underline md:mr-6 "
+          >
             Instagram
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" target="_blank" className="mr-4 hover:underline md:mr-6">
+          <Link to="/" target="_blank" className="mr-4 hover:underline md:mr-6">
             LinkedIn
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" target="_blank" className="mr-4 hover:underline md:mr-6">
+          <Link to="/" target="_blank" className="mr-4 hover:underline md:mr-6">
             Youtube
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" target="_blank" className="hover:underline">
+          <Link
+            to="https://github.com/BaoAnTran27012001/movie-api/tree/main"
+            target="_blank"
+            className="hover:underline"
+          >
             Github
-          </a>
+          </Link>
         </li>
       </ul>
     </footer>
