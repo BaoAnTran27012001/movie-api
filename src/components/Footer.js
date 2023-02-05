@@ -31,7 +31,7 @@ export const Footer = () => {
         </li>
         <li>
           <Link
-            to="https://github.com/BaoAnTran27012001/movie-api/tree/main"
+            to="/"
             target="_blank"
             className="hover:underline"
           >
